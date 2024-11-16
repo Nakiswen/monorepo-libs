@@ -1,0 +1,26 @@
+{
+  "name": "@alvin/hooks",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "c1hotvip@gmail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://localhost:4873/",
+    "access": "public"
+  },
+  "dependencies": {
+    "@alvin/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "libs",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "publish": "pnpm build && changeset publish"
+  },
+  "keywords": [],
+  "author": "c1hotvip@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.26.0",
+    "koa": "^2.15.3",
+    "turbo": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.64",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

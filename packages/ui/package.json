@@ -1,0 +1,24 @@
+{
+  "name": "@alvin/ui",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo test 1",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "c1hotvip@gmail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://localhost:4873/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  }
+}
