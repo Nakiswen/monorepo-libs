@@ -10,7 +10,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version": "changeset version",
-    "publish": "pnpm build && changeset publish"
+    "publish": "pnpm build && changeset publish --access public"
   },
   "keywords": [],
   "author": "c1hotvip@gmail.com",
