@@ -1,5 +1,13 @@
 # @alvin/hooks
 
+## 2.0.1
+
+### Patch Changes
+
+- 6074dfe: update
+- Updated dependencies [6074dfe]
+  - @alvin/ui@2.1.0
+
 ## 2.0.0
 
 ### Major Changes
