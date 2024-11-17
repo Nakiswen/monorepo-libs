@@ -1,32 +1,12 @@
-"use strict";
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+'use strict';
 
-// src/index.ts
-var src_exports = {};
-__export(src_exports, {
-  sayHello: () => sayHello
-});
-module.exports = __toCommonJS(src_exports);
-var a = 2;
-console.log("\u2764\u2764", a);
-var sayHello = () => "Hello from Package @alvin/ui";
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  sayHello
-});
+var index = require('./components/Button/index.cjs');
+var index$1 = require('./components/Input/index.cjs');
+
+const a = 2;
+console.log("❤❤❤❤❤❤❤❤", a);
+const sayHello = ()=>'Hello from Package @alvin/ui';
+
+exports.Button = index.Button;
+exports.Input = index$1.Input;
+exports.sayHello = sayHello;

@@ -1,14 +1,21 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "composite": true,
-    "moduleResolution": "node",
-    "noEmit": false,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
     "declaration": true,
-    "emitDeclarationOnly": false,
+    "declarationMap": true,
     "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
     "paths": {
       "@alvin/*": ["../../packages/*/src"]
     }

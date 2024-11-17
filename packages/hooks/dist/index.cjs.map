@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":";AAAA,SAAS,gBAAgB;AAElB,IAAM,QAAQ,MAAM,GAAG,SAAS,CAAC;AAExC,QAAQ,IAAI,MAAM,CAAC","sourcesContent":["import { sayHello } from '@alvin/ui';\r\n\r\nexport const greet = () => `${sayHello()} and Package @alvin/hooks`;\r\n\r\nconsole.log(greet());"]}

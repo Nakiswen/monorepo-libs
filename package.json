@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "pnpm --filter @alvin/storybook dev",
+    "build-storybook": "pnpm --filter @alvin/storybook build",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "changeset": "changeset",
@@ -20,6 +21,8 @@
     "turbo": "^1.10.0"
   },
   "devDependencies": {
+    "@storybook/jest": "^0.2.3",
+    "@storybook/testing-library": "^0.2.2",
     "@types/node": "^18.19.64",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
